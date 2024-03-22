@@ -10,19 +10,19 @@ interface ISiteMetadataResult {
 }
 
 const data: ISiteMetadataResult = {
-  siteTitle: 'Running Page',
-  siteUrl: 'https://yihong.run',
-  logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU',
-  description: 'Personal site and blog',
+  siteTitle: 'zxchaos的跑步记录',
+  siteUrl: 'https://run.zxchaos.xyz',
+  logo: 'https://2182d1e9.avatar-5k2.pages.dev/running_main_3.png',
+  description: 'zxchaos的跑步记录',
   navLinks: [
-    {
-      name: 'Blog',
-      url: 'https://github.com/yihong0618/gitblog',
-    },
-    {
-      name: 'About',
-      url: 'https://github.com/yihong0618/running_page/blob/master/README-CN.md',
-    },
+    // {
+    //   name: 'Blog',
+    //   url: 'https://github.com/yihong0618/gitblog',
+    // },
+    // {
+    //   name: 'About',
+    //   url: 'https://github.com/yihong0618/running_page/blob/master/README-CN.md',
+    // },
   ],
 };
 
