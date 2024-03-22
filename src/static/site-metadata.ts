@@ -12,7 +12,7 @@ interface ISiteMetadataResult {
 const data: ISiteMetadataResult = {
   siteTitle: 'zxchaos的跑步记录',
   siteUrl: 'https://run.zxchaos.xyz',
-  logo: 'https://2182d1e9.avatar-5k2.pages.dev/running_main_3.png',
+  logo: 'https://avatar-5k2.pages.dev/running_main_3.png',
   description: 'zxchaos的跑步记录',
   navLinks: [
     // {
