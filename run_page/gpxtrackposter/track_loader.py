@@ -92,11 +92,12 @@ class TrackLoader:
         if is_grid:
             activities = (
                 session.query(Activity)
+                .filter(Activity.type == 'Run')
                 .filter(Activity.summary_polyline != "")
                 .order_by(Activity.start_date_local)
             )
         else:
-            activities = session.query(Activity).order_by(Activity.start_date_local)
+            activities = session.query(Activity).filter(Activity.type == 'Run').order_by(Activity.start_date_local)
         tracks = []
         for activity in activities:
             t = Track()
