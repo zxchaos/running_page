@@ -12,7 +12,7 @@ const RunMapButtons = ({ changeYear, thisYear }: { changeYear: (_year: string) =
       {yearsButtons.map((year) => (
         <li
           key={`${year}button`}
-          className={styles.button + ` ${year === thisYear ? styles.selected : ''}`}
+          className={styles.button + ` ${year === 'Total' ? styles.selected : ''}`}
           onClick={() => {
             changeYear(year);
           }}
