@@ -18,7 +18,6 @@ on:
       - run_page/tcx_sync.py
       - run_page/garmin_to_strava_sync.py
       - requirements.txt
-      - run_page/gpxtrackposter/track_loader.py
 
 env:
   # please change to your own config.
